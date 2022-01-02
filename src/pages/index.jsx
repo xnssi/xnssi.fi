@@ -37,6 +37,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="displayMobile">
+              <br/>
               <Contact />
             </div>
             <h2>Services</h2>
