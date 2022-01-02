@@ -2,10 +2,15 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Wrapper from "./_wrapper"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <title>Anssi Hautaviita</title>
+        <meta name="description" content="Web Developer, SEO & Marketing Automation specialist."></meta>
+      </Helmet>
       <main>
         <div className="businessCardContainer">
           <div className="businessCard">
@@ -44,11 +49,6 @@ const IndexPage = () => {
           </div>
         </div>
       </main>
-      <footer>
-        <div>
-          This website does not store any cookies or other data to your device.
-        </div>
-      </footer>
     </Wrapper>
   )
 }

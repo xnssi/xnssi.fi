@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Wrapper from "./_wrapper"
 
@@ -7,12 +8,20 @@ import Wrapper from "./_wrapper"
 const NotFoundPage = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <title>Page not found</title>
+      </Helmet>
       <main>
-        <title>404 - Page not found</title>
-        <h1>404 - Page not found</h1>
-        <p>
-          <Link to="/">Go home</Link>.
-        </p>
+        <div className="businessCardContainer">
+          <div className="businessCard">
+            <div className="row">
+              <div className="otherContent">
+                <h1>Page not found</h1>
+                <p><Link to="/">Back to home</Link></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </Wrapper>
   )
