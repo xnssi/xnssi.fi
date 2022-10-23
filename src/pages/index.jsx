@@ -30,7 +30,7 @@ const IndexPage = () => {
               </div>
               <div className="otherContent">
                 <h1>Anssi Hautaviita</h1>
-                <p className="underTitle">Web Developer, SEO & Marketing Automation specialist</p>
+                <p className="underTitle">Software Engineer, SEO & Marketing Automation specialist</p>
                 <div className="hideMobile">
                   <Contact />
                 </div>
@@ -42,9 +42,9 @@ const IndexPage = () => {
             </div>
             <h2>Services</h2>
             <div className="services">
-              <span className="service">Websites</span>
               <span className="service">Web&nbsp;applications</span>
-              <span className="service">Marketing&nbsp;automation&nbsp;setups</span>
+              <span className="service">Websites</span>
+              <span className="service">Marketing&nbsp;automation</span>
               <span className="service">Search&nbsp;Engine&nbsp;Optimization</span>
             </div>
           </div>
